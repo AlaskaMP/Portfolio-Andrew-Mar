@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Andrew Mar Portfolio">
-	<div class="text-white flex flex-col items-center m-4">
+	<div class="w-[600px] flex flex-col justify-center items-center">
 		<header>
 			<nav class="flex flex-row gap-8">
 				<a>Andrew Mar</a>
@@ -14,16 +14,39 @@ import Layout from '../layouts/Layout.astro';
 				<a>Source</a>
 			</nav>
 		</header>
-		<main>
-			<section>
+		<main class="flex flex-col items-center">
+			<section class="flex justify-center"> 
 				<img 
 				src="https://images.unsplash.com/photo-1710595638861-a6f9680649b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 				class="h-[300px] mt-24"/>
 			</section>
 			<article>
-				<div>
-					Hello, I'm a developer based in Perú
+				<div class="h-10 mt-4 bg-[#313134] rounded-xl flex justify-center items-center ">
+					<p>Hello, I'm a developer based in Perú</p>
 				</div>
+				<div class="flex mt-5 gap-5">
+					<div class="flex gap-2 flex-col">
+						<h1 class="text-4xl font-bold">Andrew Mar</h1>
+						<p>Digital Craftsman ( Engineer / Developer / Designer )</p>
+					</div>
+					<img
+					src="https://images.unsplash.com/photo-1627389955611-70c92a5d2e2b?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					class="size-40 object-cover rounded-full"
+					/>
+				</div>
+			</article>
+			<article>
+				<h2 class="text-2xl border-b-4 border-[#525252] inline ">Work</h2>
+				<p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reprehenderit deserunt ratione iusto et quidem non pariatur vitae aliquam culpa, iure ad illo eaque atque repellat, quisquam alias quas enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos, excepturi facilis animi voluptas praesentium dolor, molestias ex maxime culpa eos assumenda inventore similique, aspernatur totam ducimus autem nemo! Dicta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae in eligendi fugiat illo cumque mollitia voluptate at expedita beatae necessitatibus, nemo accusamus quam, perferendis non repellendus inventore aliquid! Eaque, odit.</p>
+			</article>
+
+			<a class="mt-4 h-10 px-3 text-black w-fit bg-[#81e6d9] rounded-lg flex justify-center items-center flex-col">
+				Look at my Portfolio >
+			</a>
+
+			<article>
+				<h2 class="text-2xl border-b-4 border-[#525252] inline ">Bio</h2>
+				<p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reprehenderit deserunt ratione iusto et quidem non pariatur vitae aliquam culpa, iure ad illo eaque atque repellat, quisquam alias quas enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos, excepturi facilis animi voluptas praesentium dolor, molestias ex maxime culpa eos assumenda inventore similique, aspernatur totam ducimus autem nemo! Dicta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae in eligendi fugiat illo cumque mollitia voluptate at expedita beatae necessitatibus, nemo accusamus quam, perferendis non repellendus inventore aliquid! Eaque, odit.</p>
 			</article>
 		</main>
 </Layout>
